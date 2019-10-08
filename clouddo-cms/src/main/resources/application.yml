@@ -1,0 +1,23 @@
+server:
+  port: 8004
+
+spring:
+  application:
+    name: api-cms
+  jackson:
+    date-format: yyyy-MM-dd
+    time-zone: GMT+8
+  servlet:
+    multipart:
+      max-file-size: 100Mb
+      max-request-size: 100Mb
+  profiles:
+    active: dev
+
+mybatis:
+  mapper-locations: mapper/**Mapper.xml
+  configuration:
+      map-underscore-to-camel-case: true
+app:
+  filePath: c:/var/uploaded_files/
+  pre: /files
