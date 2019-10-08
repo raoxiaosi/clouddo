@@ -17,6 +17,4 @@
 
 6.启动clouddo-cms 内容管理微服务
 
-7.启动前端项目 https://gitee.com/lcg0124/clouddo-view.git
-### 系统截图
-![输入图片说明](https://gitee.com/uploads/images/2018/0525/154945_23b93b75_1204498.png "屏幕截图.png")
+7.启动前端项目 https://github.com/raoxiaosi/clouddo-view.git
